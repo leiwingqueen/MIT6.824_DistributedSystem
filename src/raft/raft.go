@@ -18,9 +18,9 @@ package raft
 //
 
 import (
+	"6.824/labgob"
+	"6.824/labrpc"
 	"bytes"
-	"labrpc"
-	"labgob"
 	"log"
 	"math/rand"
 	"sync"
